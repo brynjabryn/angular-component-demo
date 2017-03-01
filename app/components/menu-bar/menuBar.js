@@ -16,14 +16,10 @@
             component: "contact"
         }];     
     }
+    
     app.component('menuBar', {
-        // Defines a two way binding in and out of the component
-        bindings: {
-            brand:'<'
-        },
-        
-        // Load the template
+        // Loading the template
         templateUrl: '/app/components/menu-bar/menuBar.html',
         controller: MenuBarCtrl 
-      });
+    });
 })();

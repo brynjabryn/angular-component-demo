@@ -4,7 +4,8 @@
         <title>Angular Components Demo</title>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
         <script src="app.js"></script>
-        <script src="app/components/menu-bar/menu.js"></script>
+        <script src="app/components/menu-bar/menuBar.js"></script>
+        <script src="app/components/image-carousel/imageCarousel.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -13,7 +14,11 @@
         <div class="container" ng-controller="HomeCtrl as $ctrl">
             <h1>{{$ctrl.message}}</h1>
         </div>
-        <menu-bar brand="Brand"></menu-bar>
+        
+        <menu-bar></menu-bar>
+        
+        <image-carousel></image-carousel>
+        
     </body>
     
     <head>
