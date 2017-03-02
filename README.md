@@ -1,7 +1,7 @@
 # angular-component-demo
 Demo of an AngularJS Component 
 
-Purpose
+Purpose: 
 To demo an AngularJS App using components instead of relying on directives and controllers lumped together. A more modular approach to building an app.
 
 Dependencies
