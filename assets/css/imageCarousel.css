@@ -1,0 +1,13 @@
+/* Center images */
+.carousel-inner>.item>a>img, 
+.carousel-inner>.item>img, 
+.img-responsive, 
+.thumbnail a>img, 
+.thumbnail>img {
+    margin: auto;
+}
+
+/* Crop view of images */
+.carousel-inner>.item {
+    max-height: 500px;
+}

@@ -19,7 +19,7 @@
     
     app.component('menuBar', {
         // Loading the template
-        templateUrl: '/app/components/menu-bar/menuBar.html',
+        templateUrl: '/app/components/menu-bar/menuBarView.html',
         controller: MenuBarCtrl 
     });
 })();

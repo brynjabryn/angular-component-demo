@@ -1,6 +1,7 @@
 (function(){
     'use strict';
-    var app = angular.module('ComponentDemoApp');
+    var app = angular.module('ComponentDemoApp'),
+        FACEBOOK_APP_ID = 1244453362329344;
 
     function ImageCarouselCtrl () {
         var self = this;
@@ -15,12 +16,14 @@
         }, {
             name: "First Day at Kindergarten",
             source: "https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/10259706_10153234081803212_8144993879571403240_n.jpg?oh=7017da5f3b491c0a810119b2ea5ae111&oe=59704DA7"
-        }];     
+        }];  
+        
+
     }
     
     app.component('imageCarousel', {
         // Loading the template
-        templateUrl: '/app/components/image-carousel/imageCarousel.html',
+        templateUrl: '/app/components/image-carousel/imageCarouselView.html',
         controller: ImageCarouselCtrl 
     });
 })();
